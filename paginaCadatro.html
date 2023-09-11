@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Pagina de cadastro</title>
+    <style>
+        body {
+            width: 30vw;
+            margin: 0 auto;
+            align-items: center;
+        }
+
+        h1, h2 {
+            text-align: center;
+            position:relative;
+        }
+        fieldset {
+            border-radius: 0.8vw;
+        }
+
+
+        .submit {
+            background-color: #2aa82e;
+            border: none;
+            color: white;
+            padding: 5px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            position:relative;
+        }
+
+
+
+
+        input{
+            border-radius: 25px;
+            border-color:#2aa82e;
+        }
+       
+        label, input{
+
+
+            padding: 0.5vw 2vh;
+            position: relative;
+            top: 50%;
+            left: 2%;
+            width: 24vw;
+            height: 2vh;
+
+
+        }
+
+
+        #cad{
+            position: relative;
+            top: 50%;
+            left: 35%;
+            width: 8vw;
+            height: 4vh;
+        }
+
+       
+    </style>
+</head>
+
+
+
+
+<body>
+    <div class="caixa1"></div>
+    <h1 class="sevif">SEVIF</h1>
+    <h2 class="sistema">Sistema de Eventos do IF</h2>
+    <div class="container">
+    </div>
+
+
+    <form action="" method="post">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label for="cadastro" width="50vw" >Nome:</label><br>
+            <input id="cadastro" type="text">
+            <br><br>
+            <label for="sobrenome">Sobrenome:</label><br>
+            <input type="text" id="sobrenome">
+            <br><br>
+            <label for="email">E-mail:</label><br>
+            <input type="text" id="email">
+            <br><br>
+            <label for="senha">Senha:</label><br>
+            <input type="password" name="senha" id="senha">
+            <br><br>
+            <label for="senha">Confirmar senha:</label><br>
+            <input type="password" name="senha" id="senha">
+            <br><br>
+            <input id= "cad" class="submit" type="submit" value="Cadastrar">
+
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+
+</html>
